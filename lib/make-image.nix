@@ -34,6 +34,7 @@ let
       "/services/continuous-integration/hydra/default.nix"
       "/services/databases/postgresql.nix"
       "/services/web-servers/nginx/default.nix"
+      "/services/networking/consul.nix"
     ]);
     args = {
       inherit pkgs lib;
